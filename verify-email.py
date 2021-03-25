@@ -2,6 +2,10 @@
 
 from verify_email import verify_email
 
+import os
+
+os.system('clear')
+
 email = input(str('enter email:'))
 
 result = verify_email(email)
